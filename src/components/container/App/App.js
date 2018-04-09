@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.scss';
 
 import Sidebar from '../Sidebar/Sidebar';
-import Content from '../Content/Content';
+import Main from '../Main/Main';
 
 class App extends Component {
   render() {
@@ -13,7 +13,7 @@ class App extends Component {
             <Sidebar />
           </div>
           <div className="col-10">
-            <Content />
+            <Main />
           </div>
         </div>
       </div>

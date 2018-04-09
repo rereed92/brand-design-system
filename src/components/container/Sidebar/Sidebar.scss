@@ -2,6 +2,16 @@
 
 .sidebar {
     padding: 15px 0 0;
+    height: 100vh;
+    overflow: scroll;
+
+    &__links {
+        padding-top: 15px;
+    }
+    
+    &__sub-nav {
+        padding-left: 20px;
+    }
 }
 
 .logo {

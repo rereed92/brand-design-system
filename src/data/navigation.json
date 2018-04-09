@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Overview",
+        "href": "/overview",
+        "children": [
+            {
+                "name": "Introduction",
+                "href": "/introduction"
+            },
+            {
+                "name": "Goals",
+                "href": "/goals"
+            },
+            {
+                "name": "Code Guidelines",
+                "href": "/code-guidelines"
+            }
+        ]
+    },
+    {
+        "name": "Foundations",
+        "href": "/foundations",
+        "children": []
+    },
+    {
+        "name": "References",
+        "href": "/references",
+        "children": []
+    }
+]
