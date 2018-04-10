@@ -15,13 +15,51 @@
             },
             {
                 "name": "Goals",
-                "url": "/goals",
-                "children": []
+                "url": "/overview/goals",
+                "children": [
+                    {
+                        "name": "Cohesive Design Language",
+                        "hash": "#cohesive-design-language"
+                    },
+                    {
+                        "name": "platform Agnostic System",
+                        "hash": "#platform-agnostic-system"
+                    },
+                    {
+                        "name": "One Stop Shop",
+                        "hash": "#one-stop-shop"
+                    }
+                ]
             },
             {
                 "name": "Code Guidelines",
-                "url": "/code-guidelines",
-                "children": []
+                "url": "/overview/code-guidelines",
+                "children": [
+                    {
+                        "name": "Markup and Accessibility",
+                        "hash": "#markup-and-accessibility"
+                    },
+                    {
+                        "name": "HTML, CSS and JS",
+                        "hash": "#html-css-js"
+                    },
+                    {
+                        "name": "Browser Support",
+                        "hash": "#browser-support"
+                    },
+                    {
+                        "name": "Hierarchy Focus and States",
+                        "hash": "#hierarchy-focus-states"
+                    },
+                    {
+                        "name": "Touch",
+                        "hash": "#touch"
+                    },
+                    {
+                        "name": "Performance and Optimisation",
+                        "hash": "#performance-and-optimisation"
+                    }
+                ]
             }
         ]
     },
