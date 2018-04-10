@@ -1,30 +1,73 @@
 [
     {
+        "name": "brAND",
+        "url": "/",
+        "children": []
+    },
+    {
         "name": "Overview",
-        "href": "/overview",
+        "url": "",
         "children": [
             {
                 "name": "Introduction",
-                "href": "/introduction"
+                "url": "/overview/introduction",
+                "children": []
             },
             {
                 "name": "Goals",
-                "href": "/goals"
+                "url": "/goals",
+                "children": []
             },
             {
                 "name": "Code Guidelines",
-                "href": "/code-guidelines"
+                "url": "/code-guidelines",
+                "children": []
             }
         ]
     },
     {
         "name": "Foundations",
-        "href": "/foundations",
-        "children": []
-    },
-    {
-        "name": "References",
-        "href": "/references",
-        "children": []
+        "url": "",
+        "children": [
+            {
+                "name": "Layout",
+                "url": "/foundations/layout",
+                "children": [
+                    {
+                        "name": "Breakpoints",
+                        "hash": "#breakpoints"
+                    },
+                    {
+                        "name": "Grid",
+                        "hash": "#grid"
+                    }
+                ]
+            },
+            {
+                "name": "Colour",
+                "url": "/foundations/colour",
+                "children": []
+            },
+            {
+                "name": "Iconography",
+                "url": "/foundations/iconography",
+                "children": []
+            },
+            {
+                "name": "Typography",
+                "url": "/foundations/typography",
+                "children": []
+            },
+            {
+                "name": "Imagery",
+                "url": "/foundations/imagery",
+                "children": []
+            },
+            {
+                "name": "Tone of Voice",
+                "url": "/foundations/tone-of-voice",
+                "children": []
+            }
+        ]
     }
 ]
