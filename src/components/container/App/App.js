@@ -8,14 +8,8 @@ class App extends Component {
     render() {
         return (
             <div className="app">
-                <div className="row">
-                    <div className="col-2">
-                        <Sidebar />
-                    </div>
-                    <div className="col-9">
-                        <Main />
-                    </div>
-                </div>
+                <Sidebar />
+                <Main />
             </div>
         );
     }
