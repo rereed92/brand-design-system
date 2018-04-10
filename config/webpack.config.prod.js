@@ -232,7 +232,7 @@ module.exports = {
             {
               loader: 'css-loader',
               options: {
-                modules: true,
+                modules: false,
                 sourceMap: true,
                 importLoaders: 2,
                 localIdentName: '[name]__[local]___[hash:base64:5]'
