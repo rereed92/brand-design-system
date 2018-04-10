@@ -6,18 +6,59 @@ export const Layout = () => {
             <h1>Layout</h1>
 
             <h2 id="breakpoints">Breakpoints</h2>
-            <p>Deserunt deserunt pariatur elit fugiat laborum non aliqua ut occaecat do. Commodo sunt minim consequat adipisicing mollit. Voluptate ullamco ad ullamco aute labore pariatur nostrud labore ad sint ut ut. Minim duis nisi consequat aliquip laborum nulla laboris. Exercitation eiusmod anim deserunt aute. Et laborum ea sint nostrud non et ut nulla quis dolor irure eu consectetur qui. Sint ad laborum duis cupidatat anim elit officia labore eu et adipisicing dolore.</p>
-            <p>Aute cupidatat magna reprehenderit culpa nulla ex id sit ea ipsum enim. Laborum enim est et enim ex anim Lorem occaecat aute culpa qui. Ad commodo exercitation sint ut ut adipisicing dolor fugiat pariatur dolore quis tempor eu. Sit consectetur cillum dolor consequat nostrud et nisi officia proident enim commodo. Est voluptate mollit nostrud Lorem quis consequat Lorem velit dolore excepteur occaecat.</p>
-            <p>Deserunt deserunt pariatur elit fugiat laborum non aliqua ut occaecat do. Commodo sunt minim consequat adipisicing mollit. Voluptate ullamco ad ullamco aute labore pariatur nostrud labore ad sint ut ut. Minim duis nisi consequat aliquip laborum nulla laboris. Exercitation eiusmod anim deserunt aute. Et laborum ea sint nostrud non et ut nulla quis dolor irure eu consectetur qui. Sint ad laborum duis cupidatat anim elit officia labore eu et adipisicing dolore.</p>
-            <p>Aute cupidatat magna reprehenderit culpa nulla ex id sit ea ipsum enim. Laborum enim est et enim ex anim Lorem occaecat aute culpa qui. Ad commodo exercitation sint ut ut adipisicing dolor fugiat pariatur dolore quis tempor eu. Sit consectetur cillum dolor consequat nostrud et nisi officia proident enim commodo. Est voluptate mollit nostrud Lorem quis consequat Lorem velit dolore excepteur occaecat.</p>
-            <p>Deserunt deserunt pariatur elit fugiat laborum non aliqua ut occaecat do. Commodo sunt minim consequat adipisicing mollit. Voluptate ullamco ad ullamco aute labore pariatur nostrud labore ad sint ut ut. Minim duis nisi consequat aliquip laborum nulla laboris. Exercitation eiusmod anim deserunt aute. Et laborum ea sint nostrud non et ut nulla quis dolor irure eu consectetur qui. Sint ad laborum duis cupidatat anim elit officia labore eu et adipisicing dolore.</p>
-            <p>Aute cupidatat magna reprehenderit culpa nulla ex id sit ea ipsum enim. Laborum enim est et enim ex anim Lorem occaecat aute culpa qui. Ad commodo exercitation sint ut ut adipisicing dolor fugiat pariatur dolore quis tempor eu. Sit consectetur cillum dolor consequat nostrud et nisi officia proident enim commodo. Est voluptate mollit nostrud Lorem quis consequat Lorem velit dolore excepteur occaecat.</p>
-            <p>Deserunt deserunt pariatur elit fugiat laborum non aliqua ut occaecat do. Commodo sunt minim consequat adipisicing mollit. Voluptate ullamco ad ullamco aute labore pariatur nostrud labore ad sint ut ut. Minim duis nisi consequat aliquip laborum nulla laboris. Exercitation eiusmod anim deserunt aute. Et laborum ea sint nostrud non et ut nulla quis dolor irure eu consectetur qui. Sint ad laborum duis cupidatat anim elit officia labore eu et adipisicing dolore.</p>
-            <p>Aute cupidatat magna reprehenderit culpa nulla ex id sit ea ipsum enim. Laborum enim est et enim ex anim Lorem occaecat aute culpa qui. Ad commodo exercitation sint ut ut adipisicing dolor fugiat pariatur dolore quis tempor eu. Sit consectetur cillum dolor consequat nostrud et nisi officia proident enim commodo. Est voluptate mollit nostrud Lorem quis consequat Lorem velit dolore excepteur occaecat.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Device</th>
+                        <th>Breakpoints(dp)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Mobile</td>
+                        <td>0 - 960</td>
+                    </tr>
+                    <tr>
+                        <td>Tablet</td>
+                        <td>960 - 1280</td>
+                    </tr>
+                    <tr>
+                        <td>Desktop</td>
+                        <td>1280 - 1920</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>Layouts over 1920dp wide may let the layout grow until it hits a maximum width. At this point, the grid should become center aligned with increased margins.</p>
 
             <h2 id="grid">Grid</h2>
-            <p>Deserunt deserunt pariatur elit fugiat laborum non aliqua ut occaecat do. Commodo sunt minim consequat adipisicing mollit. Voluptate ullamco ad ullamco aute labore pariatur nostrud labore ad sint ut ut. Minim duis nisi consequat aliquip laborum nulla laboris. Exercitation eiusmod anim deserunt aute. Et laborum ea sint nostrud non et ut nulla quis dolor irure eu consectetur qui. Sint ad laborum duis cupidatat anim elit officia labore eu et adipisicing dolore.</p>
-            <p>Aute cupidatat magna reprehenderit culpa nulla ex id sit ea ipsum enim. Laborum enim est et enim ex anim Lorem occaecat aute culpa qui. Ad commodo exercitation sint ut ut adipisicing dolor fugiat pariatur dolore quis tempor eu. Sit consectetur cillum dolor consequat nostrud et nisi officia proident enim commodo. Est voluptate mollit nostrud Lorem quis consequat Lorem velit dolore excepteur occaecat.</p>
+            <p>The grid system should be build based on layout with predefined columns. This creates visual consistency between layouts, while allowing flexibility across a wide variety of designs. Margins and gutters follow an 8dp square baseline grid. The number of columns and gutter size is based on the breakpoint system.</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Breakpoint(dp)</th>
+                        <th>Columns</th>
+                        <th>Gutter(dp)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>0, 360, 400, 480</td>
+                        <td>4</td>
+                        <td>16</td>
+                    </tr>
+                    <tr>
+                        <td>600, 720</td>
+                        <td>8</td>
+                        <td>16</td>
+                    </tr>
+                    <tr>
+                        <td>840, 960, 1024, 1280, 1440, 1600, 1920</td>
+                        <td>12</td>
+                        <td>24</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     );
 }
