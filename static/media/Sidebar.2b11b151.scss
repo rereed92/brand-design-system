@@ -1,0 +1,31 @@
+@import 'node_modules/@fakesamgregory/brand/scss/variables';
+
+.sidebar {
+    padding: 15px 15px 80px;
+    flex: 0 0 20%;
+    max-width: 20%;
+    position: relative;
+    min-height: 100vh;
+    overflow-y: auto;
+    height: 100%;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+
+
+    &__sections {
+        margin-top: 20px;
+    }
+    
+    &__pages {
+        padding-left: 20px;
+    }
+
+    &__titles {
+        padding-left: 20px;
+    }
+}
+
+.logo {
+    padding-bottom: 15px;
+    border-bottom: 1px solid $color-mine-shaft;
+}
